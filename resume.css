@@ -1,0 +1,191 @@
+/* Загальні стилі */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section{
+    margin-right: 20px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+/* Стилі для секції з інформацією про працю */
+.worker {
+    margin-bottom: 20px;
+    background-color: #ffe6b3; /* Яскравий жовтий */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.worker:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.job {
+    color: #ff9900; 
+}
+
+.name {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ff1a75; 
+}
+
+.info {
+    line-height: 1.6;
+    color: #6600cc; 
+}
+
+/* Стилі для секції з проектами */
+.works {
+    margin-bottom: 20px;
+    background-color: #b3ffb3; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.works:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Projects {
+    color: #00ccff; /* Яскравий блакитний */
+}
+
+/* Стилі для секції з досвідом роботи */
+.experiences {
+    margin-bottom: 20px;
+    background-color: #ee91da; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.experiences:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.experiences-one-only-name {
+    font-size: 20px;
+    margin: 0;
+    color: #6600cc;
+}
+
+.experiences-one-only-name-data {
+    margin: 0;
+}
+
+.experiences-one-only-name-data-info {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Стилі для секції з освітою */
+.education {
+    margin-bottom: 20px;
+    background-color: #6693f5; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.education:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.education-name {
+    color: #ff4d4d; /* Яскравий червоний */
+}
+
+.education-name-place {
+    margin: 0;
+}
+
+.education-name-place-info {
+    margin: 0;
+}
+
+/* Стилі для бічної панелі з контактною інформацією, технічними та соціальними навичками */
+.info-my {
+    position: absolute;
+    top: 20px; /* відстань від верху */
+    left: 20px; /* відстань від лівого краю */
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-left: 20px;
+}
+
+
+.info-my:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contacts {
+    margin-bottom: 20px;
+}
+
+.contacts-name, .tech-name, .soft-name {
+    color: #ff1100;
+}
+
+.contacts-name-phone, .contacts-name-phone-amail {
+    margin: 5px 0;
+}
+
+.contacts-name-phone a, .contacts-name-phone-amail a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tech-name-list, .soft-name-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+/* Оформлення зображення */
+img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Медіа-запит для адаптації до мобільних пристроїв */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .info-my {
+        width: auto;
+        margin-top: 20px;
+    }
+}
