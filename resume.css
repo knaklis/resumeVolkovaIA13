@@ -23,7 +23,7 @@ section{
 /* Стилі для секції з інформацією про працю */
 .worker {
     margin-bottom: 20px;
-    background-color: #ffe6b3; /* Яскравий жовтий */
+    background-color: #f8e3ba; /* Яскравий жовтий */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -36,25 +36,25 @@ section{
 }
 
 .job {
-    color: #ff9900; 
+    color: #f87c34; 
 }
 
 .name {
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 24px;
-    color: #ff1a75; 
+    color: #070607; 
 }
 
 .info {
     line-height: 1.6;
-    color: #6600cc; 
+    color: #020202; 
 }
 
 /* Стилі для секції з проектами */
 .works {
     margin-bottom: 20px;
-    background-color: #b3ffb3; 
+    background-color: #f8e3ba; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -67,13 +67,13 @@ section{
 }
 
 .Projects {
-    color: #00ccff; /* Яскравий блакитний */
+    color: #f87c34; /* Яскравий блакитний */
 }
 
 /* Стилі для секції з досвідом роботи */
 .experiences {
     margin-bottom: 20px;
-    background-color: #ee91da; 
+    background-color: #f8e3ba; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -88,7 +88,7 @@ section{
 .experiences-one-only-name {
     font-size: 20px;
     margin: 0;
-    color: #6600cc;
+    color: #f87c34;
 }
 
 .experiences-one-only-name-data {
@@ -103,7 +103,7 @@ section{
 /* Стилі для секції з освітою */
 .education {
     margin-bottom: 20px;
-    background-color: #6693f5; 
+    background-color: #f8e3ba; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -116,7 +116,7 @@ section{
 }
 
 .education-name {
-    color: #ff4d4d; /* Яскравий червоний */
+    color: #f87c34; /* Яскравий червоний */
 }
 
 .education-name-place {
@@ -133,7 +133,7 @@ section{
     top: 20px; /* відстань від верху */
     left: 20px; /* відстань від лівого краю */
     width: 300px;
-    background-color: #fff;
+    background-color: #f8e3ba;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -152,7 +152,7 @@ section{
 }
 
 .contacts-name, .tech-name, .soft-name {
-    color: #ff1100;
+    color: #f87c34;
 }
 
 .contacts-name-phone, .contacts-name-phone-amail {
